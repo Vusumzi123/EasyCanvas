@@ -8,7 +8,7 @@
 var CanvasHead = function(vars) {
 
 this.canvas=vars.canvas;
-this.ctx = vars.canvas.getContext("2d");
+this.ctx = this.canvas.getContext("2d");
 this.ctx.fillStyle="white";
 this.ctx.textAlign="center";
 this.eWith=1;
